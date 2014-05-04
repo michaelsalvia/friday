@@ -1,0 +1,5 @@
+1.) Open 'Control Panel'
+2.) Click 'Speech Recognition'
+3.) Click 'Train your computer to better understand you'
+
+Follow these setup instructions so Jarvis will be able to understand you better.
