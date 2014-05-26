@@ -24,8 +24,11 @@ namespace Jarvis
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             Application.Run(new Terminal());
 =======
+=======
+>>>>>>> Stashed changes
             jarvis = new JarvisMainForm();
             Application.Run(jarvis);
             
@@ -82,6 +85,9 @@ namespace Jarvis
         static void recognizer_SpeechHypothesized(object sender, SpeechHypothesizedEventArgs e)
         {
            jarvis.setHypothesized(e.Result.Text);
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
 
