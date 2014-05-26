@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Jarvis
+{
+    public partial class JarvisMainForm : Form
+    {
+        public JarvisMainForm()
+        {
+            InitializeComponent();
+            Program.something();
+        }
+
+        public void setHypothesized(String text)
+        {
+            this.hypothesized.Text = text;
+        }
+        public void setRecognized(String text)
+        {
+            this.hypothesized.Text = text;
+        }
+
+  
+    }
+}

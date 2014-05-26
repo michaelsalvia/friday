@@ -51,9 +51,17 @@
     </Compile>
     <Compile Include="Terminal.Designer.cs">
       <DependentUpon>Terminal.cs</DependentUpon>
+    <Compile Include="JarvisMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JarvisMainForm.Designer.cs">
+      <DependentUpon>JarvisMainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="JarvisMainForm.resx">
+      <DependentUpon>JarvisMainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
