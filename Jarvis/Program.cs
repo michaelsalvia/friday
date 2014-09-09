@@ -10,12 +10,8 @@ namespace Jarvis
 
     static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        
-        static JarvisMainForm jarvis = null;
-        
+
+        static Terminal jarvis = null;
 [STAThread]
         static void Main()
         {
@@ -23,13 +19,10 @@ namespace Jarvis
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            Application.Run(new Terminal());
-=======
-=======
->>>>>>> Stashed changes
-            jarvis = new JarvisMainForm();
+
+            
+
+            jarvis = new Terminal();
             Application.Run(jarvis);
             
         }
@@ -85,16 +78,13 @@ namespace Jarvis
         static void recognizer_SpeechHypothesized(object sender, SpeechHypothesizedEventArgs e)
         {
            jarvis.setHypothesized(e.Result.Text);
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
         }
 
         // Handle the SpeechRecognized event.
         static void recognizer_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
-            jarvis.setRecognized(e.Result.Text);
+            jarvis.setUnderstood(e.Result.Text);
         }
 
      

@@ -42,22 +42,22 @@
             // hypothesizedRecognitionLabel
             // 
             this.hypothesizedRecognitionLabel.AutoSize = true;
-            this.hypothesizedRecognitionLabel.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.hypothesizedRecognitionLabel.Font = new System.Drawing.Font("Lithos Pro Regular", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hypothesizedRecognitionLabel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.hypothesizedRecognitionLabel.Location = new System.Drawing.Point(12, 19);
+            this.hypothesizedRecognitionLabel.Location = new System.Drawing.Point(12, 29);
             this.hypothesizedRecognitionLabel.Name = "hypothesizedRecognitionLabel";
-            this.hypothesizedRecognitionLabel.Size = new System.Drawing.Size(193, 19);
+            this.hypothesizedRecognitionLabel.Size = new System.Drawing.Size(231, 18);
             this.hypothesizedRecognitionLabel.TabIndex = 0;
             this.hypothesizedRecognitionLabel.Text = "Hypothesized Recognition:";
             // 
             // understoodInstructionLabel
             // 
             this.understoodInstructionLabel.AutoSize = true;
-            this.understoodInstructionLabel.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.understoodInstructionLabel.Font = new System.Drawing.Font("Lithos Pro Regular", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.understoodInstructionLabel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.understoodInstructionLabel.Location = new System.Drawing.Point(33, 56);
+            this.understoodInstructionLabel.Location = new System.Drawing.Point(25, 68);
             this.understoodInstructionLabel.Name = "understoodInstructionLabel";
-            this.understoodInstructionLabel.Size = new System.Drawing.Size(172, 19);
+            this.understoodInstructionLabel.Size = new System.Drawing.Size(218, 18);
             this.understoodInstructionLabel.TabIndex = 1;
             this.understoodInstructionLabel.Text = "Understood Instruction:";
             // 
@@ -65,12 +65,12 @@
             // 
             this.hypothesizedRecognitionText.AutoSize = true;
             this.hypothesizedRecognitionText.BackColor = System.Drawing.Color.Black;
-            this.hypothesizedRecognitionText.Font = new System.Drawing.Font("Eras Light ITC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hypothesizedRecognitionText.Font = new System.Drawing.Font("Tekton Pro Ext", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hypothesizedRecognitionText.ForeColor = System.Drawing.Color.YellowGreen;
-            this.hypothesizedRecognitionText.Location = new System.Drawing.Point(211, 9);
+            this.hypothesizedRecognitionText.Location = new System.Drawing.Point(249, 9);
             this.hypothesizedRecognitionText.Name = "hypothesizedRecognitionText";
             this.hypothesizedRecognitionText.Padding = new System.Windows.Forms.Padding(10);
-            this.hypothesizedRecognitionText.Size = new System.Drawing.Size(164, 38);
+            this.hypothesizedRecognitionText.Size = new System.Drawing.Size(194, 38);
             this.hypothesizedRecognitionText.TabIndex = 2;
             this.hypothesizedRecognitionText.Text = "Currently Unavailable";
             // 
@@ -78,12 +78,12 @@
             // 
             this.understoodInstructionText.AutoSize = true;
             this.understoodInstructionText.BackColor = System.Drawing.Color.Black;
-            this.understoodInstructionText.Font = new System.Drawing.Font("Eras Light ITC", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.understoodInstructionText.Font = new System.Drawing.Font("Tekton Pro Ext", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.understoodInstructionText.ForeColor = System.Drawing.Color.YellowGreen;
-            this.understoodInstructionText.Location = new System.Drawing.Point(211, 47);
+            this.understoodInstructionText.Location = new System.Drawing.Point(249, 48);
             this.understoodInstructionText.Name = "understoodInstructionText";
             this.understoodInstructionText.Padding = new System.Windows.Forms.Padding(10);
-            this.understoodInstructionText.Size = new System.Drawing.Size(164, 38);
+            this.understoodInstructionText.Size = new System.Drawing.Size(194, 38);
             this.understoodInstructionText.TabIndex = 3;
             this.understoodInstructionText.Text = "Currently Unavailable";
             // 
@@ -124,11 +124,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Adobe Fan Heiti Std B", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Font = new System.Drawing.Font("Lithos Pro Regular", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label2.Location = new System.Drawing.Point(16, 113);
+            this.label2.Location = new System.Drawing.Point(16, 109);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 16);
+            this.label2.Size = new System.Drawing.Size(80, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "Console:";
             // 
